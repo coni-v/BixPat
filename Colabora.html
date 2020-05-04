@@ -1,0 +1,240 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiXPat</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="colabora.css">
+</head>
+
+<body>
+    <section class="mdpan"> <!-- Migas de pan -->
+        <p class="mdpantoh">
+            <a href="index.html" class="mdpan1">Inicio</a> > <a href="#" class="mdpan1">Colabora con nosotros</a>
+        </p>
+    </section>
+
+    <section class="infocolabora">
+    <h2 class="titulo">Colabora con nosotros</h2> <!-- Info colabora -->
+     <p class="texto">
+        Mantener la biblioteca activa y actualizada es trabajo de todas y todos, 
+        por eso queremos invitarte a la comunidad <b>BiXPat</b>.
+        <br>
+        <br> Queremos invitarte a calificar los ejemplos de cada patrón y también a compartir más ejemplos que hayas visto.
+        <br>
+        <br> Acá podrás subir un ejemplo de uso de un patrón con la descripión e imágenes del proceso para ayudar a enriquecer nuestros contenidos.
+        <br><br>
+        Recuerda <a href="#">Iniciar sesión o registrarte</a>  para colaborar! 
+     </p>
+     <img src="colaboraf.png" alt="colabora" class="imgcolabora"> 
+ </section>
+
+    <section class="formulario">
+        <h2 class="tituloformulario">Formulario de colaboración</h2>
+        <p class="textoformulario">Comparte un ejemplo de algún patrón que hayas encontrado en BiXPat.</p>
+        
+        <ul class="formularioparte1">
+            <li class="formulariotitulo">Categoría y Patrón
+                <li class="forma1">Categoría</li>
+                <select name="Categoria" id="Categoria" class="categoria">
+                    <option value="" selected="selected" disabled>Seleccionar</option>
+                    <option value="Preferencias de usuario">Preferencias de usuario</option>
+                    <option value="Gestion de contenido">Gestión de contenido</option>
+                    <option value="Accesos y seguridad">Accesos y seguridad</option>
+                    <option value="Guias y facilitadores">Guías y facilitadores</option>
+                    <option value="Procesos de compra">Procesos de compra</option>
+                </select>
+                <li class="forma2">Patrón</li>
+                <select name="Patron" id="Patron" class="Patron">
+                    <option selected disabled>Seleccionar</option>
+                    <optgroup label="Preferencias de usuario">
+                      <option value="1">Cuenta verificada</option>
+                      <option value="2">Cambiar cuenta de pago a cuenta gratuita</option>
+                      <option value="3">Definición de Preferencias</option>
+                      <option value="4">Definir preferencias de mensajería</option>
+                      <option value="5">Des-subscripción de lista de correo</option>
+                      <option value="6">Eliminar subscripción</option>
+                      <option value="7">Eliminar cuenta</option>
+                    </optgroup>
+
+                    <optgroup label="Gestión de contenido">
+                      <option value="8">Compartir</option>
+                      <option value="9">Comentar una publicación</option>
+                      <option value="10">Eliminar contenido de redes sociales</option>
+                      <option value="11">Calificación de post</option>
+                      <option value="12">Evaluación de producto o servicio</option>
+                    </optgroup>
+
+                    <optgroup label="Accesos y seguridad">
+                        <option value="13">Autenticación de usuario</option>
+                        <option value="14">Creación de cuenta (registro)</option>
+                        <option value="15">Recuperar cuenta</option>
+                        <option value="16">Cambio de contraseña</option>
+                        <option value="17">Solicitar permisos de usuario</option>
+                        <option value="18">Captcha o elementos de seguridad</option>
+                        <option value="19">Aplicaciones codependientes</option>
+                      </optgroup>
+
+                      <optgroup label="Guías y facilitadores">
+                        <option value="20">Contenido no solicitado por el usuario</option>
+                        <option value="21">Acceder a contenido de pago</option>
+                        <option value="22">Chatbots</option>
+                        <option value="23">Wizard o tunneling</option>
+                        <option value="24">Predicción de búsqueda</option>
+                        <option value="25">Segmentación de contenido</option>
+                        <option value="26">Actualización de información constante</option>
+                        <option value="27">Notificaciones</option>
+                      </optgroup>
+
+                      <optgroup label="Accesos y seguridad">
+                        <option value="28">Comparación de productos</option>
+                        <option value="29">Cupones</option>
+                        <option value="30">Formas de pago</option>
+                        <option value="31">Carros de compra</option>
+                        <option value="32">Desbloquear características de pago</option>
+
+                      </optgroup>
+
+                  </select>
+            </li>
+        </ul>
+
+        <ul class="formularioparte2">
+            <li class="formulariotitulo">Detalles
+                <li class="forma1">Nombre</li>
+                    <input type="text" class="cajatexto1" placeholder="Ej: Cuenta verificada en Youtube">
+                <li class="forma2">Plataforma</li>
+                <select name="Plataforma" id="Plataforma" class="Plataforma">
+                    <option value="" selected="selected" disabled >Seleccionar</option>
+                    <option value="Sitio web de escritorio">Sitio web de escritorio</option>
+                    <option value="Aplicacion movil">Aplicación</option>
+                    <option value="Multiplataforma">Multiplataforma</option>
+                </select>
+            </li>
+        </ul>
+
+        <ul class="formularioparte3">
+            <li class="formulariotitulo">Experiencia de usuario
+                <li class="forma1">Proceso</li>
+                <textarea class="cajatexto2" placeholder="Describe tu experiencia con el  ejemplo que propones. Mínimo 500 y máximo 700 carácteres." maxlength="700"></textarea>
+                <li class="forma3">Resultado</li>
+                <select name="Resultado" id="Resultado" class="Resultado">
+                    <option value="" selected="selected" disabled>Seleccionar</option>
+                    <option value="Excelente">Excelente</option>
+                    <option value="Bueno">Bueno</option>
+                    <option value="Regular">Regular</option>
+                    <option value="Malo">Malo</option>
+                    <option value="Pesimo">Pásimo</option>
+                </select>
+            </li>
+        </ul>
+
+        <ul class="formularioparte4">
+            <li class="formulariotitulo">Imágenes (Minimo 4 y máximo 12)</li>
+            <input type="button" value="Seleccionar archivos" class="subirarchivos"> 
+            <li class="forma4">No se han seleccionado archivos</li>
+        </ul>
+
+        <input type="submit" value="Subir formulario" class="submit"> 
+
+    </section>
+
+    <footer>
+        <img src="logo iso.png" alt="Logo iso" style="width:154px;height:141px;position:absolute;top:44px;left:95px;">
+        <p class="cr">Copyright ©  2020</p>
+        <img src="icono mail.png" alt="Logo" class="cr3">
+        <p class="cr2">Contáctanos</p>
+        <h3 class="titulosfooter" style="position:absolute;left:366px;">¿Quienes somos?</h3>
+        <h3 class="titulosfooter" style="position:absolute;left:852px;">Si quieres saber más</h3>
+        <p class="tfooter">Este es un proyecto hecho por un grupo de estudiantes de la 
+            <a href="#">Escuela de Arquitectura y Diseño de la Pontificia Universidad Católica de Valparaíso.</a>
+        </p>
+        <li class="footerlinks"><a href="#" style="position:absolute;top:98px;">¿Qué son los patrones de interacción?</a></li>
+        <li class="footerlinks"><a href="#" style="position:absolute;top:125px;">Conoce la casiopea de la escuela</a></li>
+        <li class="footerlinks"><a href="#" style="position:absolute;top:152px;">Colabora con nosotros</a></li>
+    </footer>
+
+    <header class="cuenta"> <!-- This es lo que va arriba -->
+        <img src="logo frente.png" alt="Logo" style="width:160px;height:48px;">
+        <li>La biblioteca de interacción de patrones</li> <!-- Esto es lo que va al lado del logo -->
+        <li><a href="">Iniciar sesión o regístrate</a></li>
+    <!--     <button id="btn-abrir-popup" class="btn-abrir-popup">Iniciar sesión o regístrate</button> -->
+    
+    <section class="menu">
+        <nav> <!-- This is a menú -->
+            
+            <li class="categoriaspatrones"><i>Categorías de patrones</i></li>
+            <li><a href="">PREFERENCIAS DE USUARIO</a>
+                <ul class="despliegue">
+                    <ul>
+                        <li>PREFERENCIAS DE USUARIO</li></ul>
+                    <img src="usuario.png" alt="Usuario" class="iconopq">
+                    <li><a href="#" class="prueba1">Definir preferencias de mensajería</a></li>
+                    <li><a href="#" class="prueba2">Des-subscripción de lista de correos</a></li>
+                    <li><a href="#" class="prueba3">Cambiar cuenta de pago</a></li>
+                    <li><a href="#" class="prueba4">Eliminar cuenta</a></li>
+                    <li><a href="#" class="prueba5">Cuenta Verificada</a></li>
+                    <li><a href="#" class="prueba6">Definición de preferencias</a></li>
+                    <li><a href="#" class="prueba7">Eliminar subscripción</a></li>
+                </ul>
+            </li> <!-- | -->
+    
+            <li><a href="">GESTIÓN DE CONTENIDO</a>
+                <ul class="despliegue">
+                    <ul>
+                        <li>GESTIÓN DE CONTENIDO</li></ul>
+                    <img src="contenido.png" alt="contenido" class="iconopq">
+                    <li><a href="#" class="prueba1">Compartir</a></li>
+                    <li><a href="#" class="prueba2">Comentar una publicación</a></li>
+                    <li><a href="#" class="prueba3">Eliminar contenido en redes sociales</a></li>
+                    <li><a href="#" class="prueba4">Calificación de post</a></li>
+                    <li><a href="#" class="prueba5">Evaluación de producto o servicio</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="">ACCESOS Y SEGURIDAD</a>
+                <ul class="despliegue">
+                    <ul>
+                        <li>ACCESOS Y SEGURIDAD</li></ul>
+                    <img src="seguridad.png" alt="seguridad" class="iconopq">
+                    <li><a href="#" class="prueba1">Autenticación de usuario</a></li>
+                    <li><a href="#" class="prueba2">Creación de cuenta</a></li>
+                    <li><a href="#" class="prueba3">Cambio de contraseña</a></li>
+                    <li><a href="#" class="prueba4">Solicitar permisos de usuario</a></li>
+                    <li><a href="#" class="prueba5">Captcha o elementos de seguridad</a></li>
+                    <li><a href="#" class="prueba6">Aplicaciones codependientes</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="">GUÍAS Y FACILITADORES</a>
+                <ul class="despliegue">
+                    <ul>
+                        <li>GUÍAS Y FACILITADORES</li></ul>
+                    <img src="guias.png" alt="guias" class="iconopq">
+                    <li><a href="#" class="prueba1">Contenido no solicitado por el usuario</a></li>
+                    <li><a href="#" class="prueba2">Acceder a contenido de pago</a></li>
+                    <li><a href="#" class="prueba3">Chatbots</a></li>
+                    <li><a href="#" class="prueba4">Wizard o tunneling</a></li>
+                    <li><a href="#" class="prueba5">Predicción de búsqueda</a></li>
+                    <li><a href="#" class="prueba6">Segmentación de contenido</a></li>
+                    <li><a href="#" class="prueba7">Actualización de información constante</a></li>
+                    <li><a href="#" class="prueba8">Notificaciones</a></li>
+                </ul>
+            </li>   
+    
+            <li><a href="">PROCESOS DE COMPRA</a>
+                <ul class="despliegue">
+                    <ul>
+                        <li>PROCESOS DE COMPRA</li></ul>
+                    <img src="compras.png" alt="compras" class="iconopq">
+                    <li><a href="#" class="prueba1">Comparación de productos</a></li>
+                    <li><a href="#" class="prueba2">Trackeo de envíos</a></li>
+                    <li><a href="#" class="prueba3">Formas de pago</a></li>
+                    <li><a href="#" class="prueba4">Cupones</a></li>
+                    <li><a href="#" class="prueba5">Desbloquear características de pago</a></li>
+                </ul>
+            </li>
+        </nav> <!-- Todo lo anterior va en todas las otras páginas -->
+    </section>
+    </header>
+</body>
