@@ -433,6 +433,7 @@ display: block; */
     border-radius: 0px 0px 20px 20px;
 }
 .sublista2 .rp21{
+    width: 200px;
     position: absolute;
     left: 13px;
     height: 371.1px; 
