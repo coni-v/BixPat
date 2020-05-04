@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;1,300;1,500&family=Maven+Pro:wght@400;500&display=swap');
+*{
+    list-style: none;
+    margin: 0px 0px;
+    padding-inline-start: 0;
+    text-decoration-color: none;
+}
+/* Parte de arriba antes del menú */
+body {
+    background: #E5E5E5;
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1450px;
+    height: 75px;
+    background-color: #F5F7F2;
+} /* fondo */
+
+header > img{
+    position: absolute;
+    top: 16px;
+    left: 18px;
+    width: 160px;
+    height: 48px;
+} /* logo de arriba */
+
+.cuenta > li a{
+    display: inline-block;
+    position: absolute;
+    top: -17px;
+    left: 741px;
+    width: 222px;
+    height: 17px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration-color: none;
+} /* Iniciar sesión y registrate */
+
+.cuenta > li{
+    display: inline-block;
+    position: relative;
+    top: 37px;
+    left: 189px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+} /* This is lo que va a un lado del logo arriba */
+
+
+
+
+.menu nav{
+    display: inline-block;
+    position: absolute;
+    top: 74px;
+    background-color: #4C4C4A;
+    height: 89px;
+    width: 100%;
+
+} /* This is menu */
+
+.menu > nav li{
+    display: inline-block;
+    margin-left: 18px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width:220px;
+    color: white;
+    
+} /* This is lo que va al lado del menú */
+
+.menu > nav > li > a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding: 35px 10px;
+} /* This is el menú */
+
+.menu li a:hover {
+    background-color: #5BC471;
+    padding: 35px 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.despliegue {
+    width: 100%;
+    height: 317px;
+    display: none;
+    left: 0;
+    position: absolute;
+    background: #F5F7F2;
+    opacity: 0;
+    transition: opacity 1s;
+}   /*Info general despliegue*/
+
+.despliegue li a {
+    display: inline;
+    font-family: Exo 2;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+}
+
+.despliegue li a:hover{
+    color: #5BC471;
+    background: none;
+    padding: 0 0;
+}
+
+.despliegue > ul >li{
+    margin-left: 141px;
+    font-family: Exo 2;
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 141px;
+    margin: 0;
+    width: 1168px;
+    background-color: #5BC471;
+}
+
+/*Las pruebas son la posición de cada item dentro del despliegue de la barra del navegador*/
+.prueba1 {
+    position: absolute;
+    width: 347px;
+    height: 35px;
+    left: 487px;
+    top: 108px;
+    margin: 0 0;
+    padding: 0 0;
+}
+.prueba2 {
+    position: absolute;
+    width: 347px;
+    height: 35px;
+    left: 487px;
+    top: 153px;
+    margin: 0 0;
+    padding: 0 0;
+}
+.prueba3 {
+    position: absolute;
+    width: 347px;
+    height: 35px;
+    left: 487px;
+    top: 198px; 
+}
+.prueba4{
+    position: absolute;
+    width: 347px;
+    height: 35px;
+    left: 487px;
+    top: 243px;
+}
+.prueba5{
+    position: absolute;
+    width: 347px;
+    height: 35px;
+    left: 853px;
+    top: 109px;
+}
+.prueba6{
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    left: 852px;
+    top: 152px;
+}
+.prueba7{
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    left: 853px;
+    top: 199px;
+}
+.prueba8{
+    position: absolute;
+    width: 345px;
+    height: 35px;
+    left: 853px;
+    top: 243px;
+}
+
+.menu li:hover .despliegue{
+    opacity: 1;
+    display: block;
+}
+/*el aparecer del despliegue*/
+
+
+.iconopq{
+    margin-top: 37px;
+    margin-left: 141px;
+    height: 119px;
+    display: inline-block;
+} /*This is icono pequeño navegador*/
+
+.mdpan{
+    position: absolute;
+    top: 197px;
+    left: 120px;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+
+}
+.mdpan a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #595959;
+}
+/* Miguitas de pan */
+
+.infocolabora{
+    position: absolute;
+    width: 1450px;
+    height: 468px;
+    left: 0px;
+    top: 238px;  
+    background-color: #F5F7F2;
+}
+
+.infocolabora > .titulo {
+    position: absolute;
+    width: 403px;
+    height: 50px;
+    left: 123px;
+    top: 72px;
+
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #1E6D2D;
+}
+
+.infocolabora > .texto {
+    position: absolute;
+    width: 708px;
+    height: 197px;
+    left: 123px;
+    top: 134px;
+
+    font-family: "Maven Pro";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.infocolabora .texto a {
+    color: black;
+}
+
+.infocolabora .imgcolabora {
+    position: absolute;
+    width: 342px;
+    height: 349px;
+    left: 974px;
+    top: 68px;
+}
+
+/* Sección superior */
+
+.formulario{
+    position: absolute;
+    width: 1450px;
+    height: 1639px;
+    left: 0px;
+    top: 760px;
+    background-color: #F5F7F2;;
+}
+
+.formulario .tituloformulario {
+    position: absolute;
+    width: 411px;
+    height: 50px;
+    left: 123px;
+    top: 56px;
+
+    font-family: "Exo 2";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #1E6D2D;
+}
+
+.formulario .textoformulario {
+    position: absolute;
+    width: 644px;
+    height: 24px;
+    left: 123px;
+    top: 137px;
+
+    font-family: "Exo 2";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+/* identical to box height */       
+
+    color: #333333;
+}
+
+.formulario .formularioparte1 {
+    position: absolute;
+    width: 1196px;
+    height: 217px;
+    left: 122px;
+    top: 217px;
+
+    background: #E5E5E5;
+    border-radius: 10px;
+}
+
+.formulario .formularioparte2 {
+    position: absolute;
+    width: 1196px;
+    height: 214px;
+    left: 122px;
+    top: 490px;
+
+    background: #E5E5E5;
+    border-radius: 10px;    
+}
+
+.formulario .formularioparte3 {
+    position: absolute;
+    width: 1196px;
+    height: 485px;
+    left: 122px;
+    top: 756px;
+
+    background: #E5E5E5;
+    border-radius: 10px;    
+}
+
+.formulario .formularioparte4 {
+    position: absolute;
+    width: 1196px;
+    height: 164px;
+    left: 122px;
+    top: 1297px;
+
+    background: #E5E5E5;
+    border-radius: 10px;    
+}
+
+
+.formulario .formulariotitulo {
+    position: absolute;
+    width: 306px;
+    height: 31px;
+    left: 123px;
+    top: 28px;
+
+    font-family: "Exo 2";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #333333;
+
+}
+
+.formulario .forma1 {
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    left: 365px;
+    top: 77px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.formulario .forma2 {
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    left: 365px;
+    top: 137px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.formulario .forma3 {
+    position: absolute;
+    width: 72px;
+    height: 21px;
+    left: 365px;
+    top: 409px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;
+}
+
+.formulario .cajatexto1 {
+    position: absolute;
+    width: 538px;
+    height: 32px;
+    left: 537px;
+    top: 74px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.formulario .cajatexto2 {
+    resize: none;
+    position: absolute;
+    width: 538px;
+    height: 304px;
+    left: 537px;
+    top: 74px;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+}
+
+.formulario .categoria {
+
+    position: absolute;
+    width: 538px;
+    height: 32px;
+    left: 537px;
+    top: 73px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.formulario .plataforma {
+
+    position: absolute;
+    width: 538px;
+    height: 32px;
+    left: 537px;
+    top: 134px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.formulario .resultado{
+
+    position: absolute;
+    width: 538px;
+    height: 32px;
+    left: 537px;
+    top: 405px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.formulario .patron {
+
+    position: absolute;
+    width: 538px;
+    height: 32px;
+    left: 537px;
+    top: 133px;
+    
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.formulario .subirarchivos {
+
+    position: absolute;
+    width: 223px;
+    height: 28px;
+    left: 365px;
+    top: 80px;
+    text-align: center;
+
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+/* identical to box height */
+
+
+    color: #8C8C8C;;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.formulario .forma4 {
+
+    position: absolute;
+    width: 266px;
+    height: 21px;
+    left: 608px;
+    top: 83px;
+
+    font-family: "Maven Pro";
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #333333;    
+} /* No se han seleccionado archivos */
+
+.formulario .submit{
+    position: absolute;
+    width: 223px;
+    height: 50px;
+    left: 1095px;
+    top: 1528px;
+    text-align: center;
+    font-family: "Exo 2";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+/* identical to box height */
+
+
+    color: #F5F7F2;
+
+    background: #333333;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 11;
+}
+
+input[type="submit"]:hover {
+    background-color: #505050 ;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+input[type="button"]:hover {
+    background-color: #E5E5E5 ;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOOOOOOOOOOTER */
+footer{
+    background: #C4C4C4;    
+    position: absolute;
+    width: 1450px;
+    height: 306px;
+    left: 0px;
+    top: 2442px;
+}
+
+footer .cr{
+    position: absolute;
+    width: 345px;
+    height: 44px;
+    left: 0px;
+    top: 216px;
+
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+footer .cr2{
+    position: absolute;
+    width: 354px;
+    height: 44px;
+    left: 1095px;
+    top: 216px;
+
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+footer .cr3{
+    position: absolute;
+    width: 56px;
+    height: 41px;
+    left: 1266px;
+    top: 210px;    
+}
+
+footer .titulosfooter{
+    position: absolute;
+    width: 354px;
+    height: 44px;
+    top: 44px;
+
+    font-family: 'Exo 2', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+
+}
+
+footer .tfooter{
+    position: absolute;
+    width: 345px;
+    height: 87px;
+    left: 366px;
+    top: 98px;
+
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration-color: none;
+}
+
+footer .footerlinks{
+    position: absolute;
+    width: 345px;
+    height: 17px;
+    left: 852px;
+
+    font-family: 'Maven Pro', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    list-style: none;    
+    text-transform: none;
+    color: #000000;
+}
+
+footer a {
+    text-decoration-color: none;
+    color: #000000;
+}
+
+
